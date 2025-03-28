@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from model import calculate_similarity
+from Model import calculate_similarity
 
 app = Flask(__name__)
 
